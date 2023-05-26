@@ -13,3 +13,11 @@ jobs:
         id: hello
         run: |
           echo "Hello World!"
+      - name: Current date
+        id: date
+        run: |
+          date
+      - name: File list
+        id: files
+        run: |
+          ls -l
